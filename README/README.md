@@ -38,7 +38,7 @@ That's a interactive project.
 
 ## Version caracteristics:
 
-- Developed for Desktops and in other devices, like Smartphones and Tablets.
+- Developed for Desktops and other devices, like Smartphones and Tablets.
 
 # Linkedin [<img src="./media/linkedin.ico" alt="gif da pokedex">](https://www.linkedin.com/in/guilherme-santamaria-chicolet-593290147/)
 
@@ -86,7 +86,7 @@ Na página você encontrará representações visuais animadas de pókemons, inf
 
 ## Caracteristicas da versão:
 
-- Desenvolvido para Desktops (computadores, notebooks) e também em outros dispositivos, como Smartphones e Tablets.
+- Desenvolvido para Desktops (computadores, notebooks) e também outros dispositivos, como Smartphones e Tablets.
 
 # Linkedin [<img src="./media/linkedin.ico" alt="gif da pokedex">](https://www.linkedin.com/in/guilherme-santamaria-chicolet-593290147/)
 

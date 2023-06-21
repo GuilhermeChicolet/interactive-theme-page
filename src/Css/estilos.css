@@ -257,7 +257,99 @@ main .description {
   height: 80px;
 }
 
-@media (min-width: 360px) and (max-width: 768px) {
+@media (min-width: 280px) and (max-width: 349px) {
+  body {
+    margin: 0 auto;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(124, 97, 176);
+    border: 1px solid #171717;
+    border-radius: 10px;
+    box-sizing: content-box;
+    height: 300px;
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  .firstShadow {
+    box-shadow: 2px 2px rgb(47, 47, 48);
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+    margin: 0 auto;
+    height: 300px;
+    width: 200px;
+    margin-bottom: 40px;
+  }
+
+  header .firstBox {
+    position: relative;
+    right: 3px;
+    top: 10px;
+    bottom: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #f5f5f5;
+    padding-top: 4px;
+    font-size: 30px;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+
+  .logo {
+    position: relative;
+    top: 4px;
+    left: 70px;
+  }
+
+  .buttonImage {
+    position: relative;
+    top: 100px;
+    right: 105px;
+  }
+
+  main {
+    margin: 0 20%;
+  }
+
+  .foot {
+    position: relative;
+    background-color: rgb(124, 97, 176);
+    border: 1px solid #171717;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: end;
+    justify-content: end;
+    align-content: space-between;
+    gap: 12px;
+    font-size: 25px;
+    color: #f5f5f5;
+    box-shadow: 3px 3px rgb(136, 136, 136);
+    border-radius: 10px;
+    height: 150px;
+    width: 250px;
+    margin: 0 auto;
+  }
+
+  .thanks {
+    position: relative;
+    left: 15px;
+    top: 10px;
+  }
+
+  .pikachu {
+    position: relative;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 768px) {
   body {
     margin: 0 auto;
   }
@@ -271,7 +363,7 @@ main .description {
     border-radius: 10px;
     box-sizing: content-box;
     height: 110px;
-    width: 300px;
+    width: 315px;
     margin: 0 auto;
   }
 
@@ -284,13 +376,16 @@ main .description {
   }
 
   header .firstBox {
+    position: relative;
+    bottom: 15px;
+    left: 15px;
     display: flex;
     align-content: center;
     justify-content: center;
     color: #f5f5f5;
     padding-top: 4px;
     padding-left: 18px;
-    font-size: 20px;
+    font-size: 25px;
     margin: 0 auto;
     margin-top: 25px;
   }
@@ -310,6 +405,7 @@ main .description {
   }
 
   .foot {
+    position: relative;
     background-color: rgb(124, 97, 176);
     border: 1px solid #171717;
     border-radius: 10px;
@@ -325,7 +421,14 @@ main .description {
     box-shadow: 3px 3px rgb(136, 136, 136);
     border-radius: 10px;
     height: 150px;
-    margin: 0 10%;
+    width: 260px;
+    margin: 0 auto;
+  }
+
+  .thanks {
+    position: relative;
+    left: 15px;
+    top: 10px;
   }
 
   .pikachu {
