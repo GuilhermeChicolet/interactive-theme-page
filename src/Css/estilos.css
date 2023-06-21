@@ -352,7 +352,7 @@ main .description {
   header .buttonImage:hover {
     cursor: pointer;
     transform: scale(1.05);
-    transition-timing-function: 30ms linear;
+    transition-timing-function: 15ms linear;
   }
 
   main .pokemon-card:hover {
@@ -452,7 +452,7 @@ main .description {
   header .buttonImage:hover {
     cursor: pointer;
     transform: scale(1.05);
-    transition-timing-function: 30ms linear;
+    transition-timing-function: 15ms linear;
   }
 
   main .pokemon-card:hover {
@@ -543,7 +543,7 @@ main .description {
     header .buttonImage:hover {
       cursor: pointer;
       transform: scale(1.05);
-      transition-timing-function: 30ms linear;
+      transition-timing-function: 15ms linear;
     }
 
     main .pokemon-card:hover {
