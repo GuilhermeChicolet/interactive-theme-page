@@ -79,7 +79,7 @@ main {
 main .informations {
   font-size: 45px;
   font-weight: bold;
-  color: #353535;
+  color: #1d1d1d;
 }
 
 .pokemon-list {
@@ -99,7 +99,7 @@ main .pokemon-card {
   gap: 15px;
   border-radius: 15px;
   transition: 0.2s ease-in-out;
-  border: 2px solid #171717;
+  border: 2px solid #101010;
   box-shadow: 7px 9px rgb(95, 95, 95);
   border-radius: 10px;
 }
@@ -288,7 +288,7 @@ main .description {
 
   header .firstBox {
     position: relative;
-    right: 6px;
+    right: 12px;
     top: 10px;
     bottom: 40px;
     display: flex;
@@ -304,13 +304,13 @@ main .description {
   .logo {
     position: relative;
     top: 4px;
-    left: 70px;
+    left: 68px;
   }
 
   .buttonImage {
     position: relative;
-    top: 100px;
-    right: 109px;
+    top: 105px;
+    right: 112px;
   }
 
   main {
@@ -346,6 +346,19 @@ main .description {
 
   .pikachu {
     position: relative;
+  }
+
+  header .logo:hover,
+  header .buttonImage:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-timing-function: 30ms linear;
+  }
+
+  main .pokemon-card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-timing-function: linear 5s;
   }
 }
 
@@ -434,83 +447,109 @@ main .description {
   .pikachu {
     position: relative;
   }
-}
 
-@media (min-width: 769px) and (max-width: 1024px) {
-  body {
-    margin: 0 auto;
+  header .logo:hover,
+  header .buttonImage:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-timing-function: 30ms linear;
   }
 
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    background-color: rgb(124, 97, 176);
-    border: 1px solid #171717;
-    border-radius: 10px;
-    box-sizing: content-box;
-    height: 100px;
-    width: 600px;
-    margin: 0 auto;
+  main .pokemon-card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-timing-function: linear 5s;
   }
 
-  .firstShadow {
-    box-shadow: 2px 2px rgb(47, 47, 48);
-    border-radius: 10px;
-    height: 100px;
-    width: 600px;
-    margin: 0 auto;
-  }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    body {
+      margin: 0 auto;
+    }
 
-  header .firstBox {
-    position: relative;
-    left: 15px;
-    bottom: 15px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    color: #f5f5f5;
-    padding-left: 18px;
-    margin: 0 auto;
-    margin-top: 25px;
-    font-size: 35px;
-  }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      background-color: rgb(124, 97, 176);
+      border: 1px solid #171717;
+      border-radius: 10px;
+      box-sizing: content-box;
+      height: 100px;
+      width: 600px;
+      margin: 0 auto;
+    }
 
-  .logo {
-    position: relative;
-    top: 13px;
-  }
+    .firstShadow {
+      box-shadow: 2px 2px rgb(47, 47, 48);
+      border-radius: 10px;
+      height: 100px;
+      width: 600px;
+      margin: 0 auto;
+    }
 
-  .buttonImage {
-    position: relative;
-    right: 9px;
-  }
+    header .firstBox {
+      position: relative;
+      left: 15px;
+      bottom: 15px;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      color: #f5f5f5;
+      padding-left: 18px;
+      margin: 0 auto;
+      margin-top: 25px;
+      font-size: 35px;
+    }
 
-  main {
-    margin: 0 20%;
-  }
+    .logo {
+      position: relative;
+      top: 13px;
+    }
 
-  .foot {
-    position: relative;
-    gap: 10px;
-    background-color: rgb(124, 97, 176);
-    border: 1px solid #171717;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    font-size: 25px;
-    color: #f5f5f5;
-    box-shadow: 3px 3px rgb(136, 136, 136);
-    border-radius: 10px;
-    height: 150px;
-    width: 350px;
-    margin: 0 auto;
-  }
+    .buttonImage {
+      position: relative;
+      right: 9px;
+    }
 
-  .pikachu {
-    position: relative;
+    main {
+      margin: 0 20%;
+    }
+
+    .foot {
+      position: relative;
+      gap: 10px;
+      background-color: rgb(124, 97, 176);
+      border: 1px solid #171717;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-items: center;
+      justify-content: center;
+      font-size: 25px;
+      color: #f5f5f5;
+      box-shadow: 3px 3px rgb(136, 136, 136);
+      border-radius: 10px;
+      height: 150px;
+      width: 350px;
+      margin: 0 auto;
+    }
+
+    .pikachu {
+      position: relative;
+    }
+
+    header .logo:hover,
+    header .buttonImage:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+      transition-timing-function: 30ms linear;
+    }
+
+    main .pokemon-card:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+      transition-timing-function: linear 5s;
+    }
   }
 }
