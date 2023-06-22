@@ -79,7 +79,7 @@ main {
 main .informations {
   font-size: 45px;
   font-weight: bold;
-  color: #1d1d1d;
+  color: #000000;
 }
 
 .pokemon-list {
@@ -117,7 +117,7 @@ main .pokemon-card:hover {
 main .pokemon-card .informations {
   display: flex;
   justify-content: space-between;
-  border: 1px solid #171717;
+  border: 1px solid #000000;
   background-color: rgb(173, 171, 221);
   box-shadow: 3px 3px rgb(48, 48, 48);
   border-radius: 10px;
@@ -460,96 +460,100 @@ main .description {
     transform: scale(1.1);
     transition-timing-function: linear 5s;
   }
+}
 
-  @media (min-width: 769px) and (max-width: 1024px) {
-    body {
-      margin: 0 auto;
-    }
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    margin: 0 auto;
+  }
 
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-content: center;
-      background-color: rgb(124, 97, 176);
-      border: 1px solid #171717;
-      border-radius: 10px;
-      box-sizing: content-box;
-      height: 100px;
-      width: 600px;
-      margin: 0 auto;
-    }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(124, 97, 176);
+    border: 1px solid #171717;
+    border-radius: 10px;
+    box-sizing: content-box;
+    height: 100px;
+    width: 600px;
+    margin: 0 auto;
+  }
 
-    .firstShadow {
-      box-shadow: 2px 2px rgb(47, 47, 48);
-      border-radius: 10px;
-      height: 100px;
-      width: 600px;
-      margin: 0 auto;
-    }
+  .firstShadow {
+    box-shadow: 2px 2px rgb(47, 47, 48);
+    border-radius: 10px;
+    height: 100px;
+    width: 600px;
+    margin: 0 auto;
+  }
 
-    header .firstBox {
-      position: relative;
-      left: 15px;
-      bottom: 15px;
-      display: flex;
-      align-content: center;
-      justify-content: center;
-      color: #f5f5f5;
-      padding-left: 18px;
-      margin: 0 auto;
-      margin-top: 25px;
-      font-size: 35px;
-    }
+  header .firstBox {
+    position: relative;
+    left: 15px;
+    bottom: 15px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #f5f5f5;
+    padding-left: 18px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 35px;
+  }
 
-    .logo {
-      position: relative;
-      top: 13px;
-    }
+  .logo {
+    position: relative;
+    top: 13px;
+  }
 
-    .buttonImage {
-      position: relative;
-      right: 9px;
-    }
+  .buttonImage {
+    position: relative;
+    right: 9px;
+  }
 
-    main {
-      margin: 0 20%;
-    }
+  main {
+    margin: 0 20%;
+  }
 
-    .foot {
-      position: relative;
-      gap: 10px;
-      background-color: rgb(124, 97, 176);
-      border: 1px solid #171717;
-      border-radius: 10px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-items: center;
-      justify-content: center;
-      font-size: 25px;
-      color: #f5f5f5;
-      box-shadow: 3px 3px rgb(136, 136, 136);
-      border-radius: 10px;
-      height: 150px;
-      width: 350px;
-      margin: 0 auto;
-    }
+  main .pokemon-card {
+    width: 200px;
+  }
 
-    .pikachu {
-      position: relative;
-    }
+  .foot {
+    position: relative;
+    gap: 10px;
+    background-color: rgb(124, 97, 176);
+    border: 1px solid #171717;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #f5f5f5;
+    box-shadow: 3px 3px rgb(136, 136, 136);
+    border-radius: 10px;
+    height: 150px;
+    width: 350px;
+    margin: 0 auto;
+  }
 
-    header .logo:hover,
-    header .buttonImage:hover {
-      cursor: pointer;
-      transform: scale(1.05);
-      transition-timing-function: 15ms linear;
-    }
+  .pikachu {
+    position: relative;
+  }
 
-    main .pokemon-card:hover {
-      cursor: pointer;
-      transform: scale(1.1);
-      transition-timing-function: linear 5s;
-    }
+  header .logo:hover,
+  header .buttonImage:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-timing-function: 15ms linear;
+  }
+
+  main .pokemon-card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-timing-function: linear 5s;
   }
 }
